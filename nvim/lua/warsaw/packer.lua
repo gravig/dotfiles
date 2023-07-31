@@ -84,7 +84,6 @@ return require('packer').startup(function(use)
   use 'lewis6991/gitsigns.nvim', -- OPTIONAL: for git status
   use 'romgrk/barbar.nvim',
   use 'airblade/vim-gitgutter',
-  use {'neoclide/coc.nvim', branch="release"},
   use {'akinsho/git-conflict.nvim', tag = "*", config = function()
 	  require('git-conflict').setup()
   end},
